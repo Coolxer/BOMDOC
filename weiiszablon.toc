@@ -1,6 +1,7 @@
 \babel@toc {polish}{}\relax 
-\contentsline {section}{\numberline {1}Wstęp/wprowadzenie}{\footnotesize 5}{}%
-\contentsline {section}{\numberline {2}Tekst zasadniczy -- I}{\footnotesize 6}{}%
-\contentsline {subsection}{\numberline {2.1}Formatowanie rozdziałów i podrozdziałów}{\footnotesize 6}{}%
-\contentsline {subsubsection}{\numberline {2.1.1}Zalecenia co do sposobu pisania jednostek i symboli wielkości fizycznych}{\footnotesize 6}{}%
-\contentsline {section}{\numberline {3}Podsumowanie i wnioski końcowe}{\footnotesize 6}{}%
+\contentsline {section}{\numberline {1}Wstęp}{\footnotesize 5}{}%
+\contentsline {section}{\numberline {2}Opis problemu}{\footnotesize 5}{}%
+\contentsline {section}{\numberline {3}Rozwiązanie}{\footnotesize 5}{}%
+\contentsline {section}{\numberline {4}Przykłady użycia}{\footnotesize 5}{}%
+\contentsline {section}{\numberline {5}Podsumowanie}{\footnotesize 5}{}%
+\contentsline {section}{Literatura}{\footnotesize 5}{}%
