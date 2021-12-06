@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.9.30)  6 DEC 2021 16:44
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.9.30)  6 DEC 2021 22:12
 entering extended mode
 **./weiiszablon.tex
 (weiiszablon.tex
@@ -388,11 +388,19 @@ Package csquotes Info: ... configuration file loaded successfully.
 (F:\PROGRAMS\MikTeX\tex/latex/csquotes\csquotes.cfg
 File: csquotes.cfg 
 ))
+(F:\PROGRAMS\MikTeX\tex/latex/float\float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count292
+\float@exts=\toks33
+\float@box=\box58
+\@float@everytoks=\toks34
+\@floatcapt=\box59
+)
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'polish'.
-LaTeX Font Info:    Trying to load font information for T1+lmr on input line 37
+LaTeX Font Info:    Trying to load font information for T1+lmr on input line 38
 .
 
 (F:\PROGRAMS\MikTeX\tex/latex/lm\t1lmr.fd
@@ -400,38 +408,38 @@ File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 (F:\PROGRAMS\MikTeX\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2021-08-04 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count292
-\l__pdf_internal_box=\box58
+\l__color_backend_stack_int=\count293
+\l__pdf_internal_box=\box60
 ) (weiiszablon.aux)
 \openout1 = `weiiszablon.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
 (F:\PROGRAMS\MikTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count293
+\scratchcounter=\count294
 \scratchdimen=\dimen174
-\scratchbox=\box59
-\nofMPsegments=\count294
-\nofMParguments=\count295
-\everyMPshowfont=\toks33
-\MPscratchCnt=\count296
+\scratchbox=\box61
+\nofMPsegments=\count295
+\nofMParguments=\count296
+\everyMPshowfont=\toks35
+\MPscratchCnt=\count297
 \MPscratchDim=\dimen175
-\MPnumerator=\count297
-\makeMPintoPDFobject=\count298
-\everyMPtoPDFconversion=\toks34
+\MPnumerator=\count298
+\makeMPintoPDFobject=\count299
+\everyMPtoPDFconversion=\toks36
 ) (F:\PROGRAMS\MikTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -440,7 +448,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 (F:\PROGRAMS\MikTeX\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-\c@lstlisting=\count299
+\c@lstlisting=\count300
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -479,15 +487,15 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 <auxiliary/logoweii.jpg, id=1, 400.1349pt x 117.67966pt>
 File: auxiliary/logoweii.jpg Graphic file (type jpg)
 <use auxiliary/logoweii.jpg>
-Package pdftex.def Info: auxiliary/logoweii.jpg  used on input line 40.
+Package pdftex.def Info: auxiliary/logoweii.jpg  used on input line 41.
 (pdftex.def)             Requested size: 355.65944pt x 104.60167pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 40--40
+Underfull \hbox (badness 10000) in paragraph at lines 41--41
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 40--40
+Underfull \hbox (badness 10000) in paragraph at lines 41--41
 
  []
 
@@ -543,97 +551,106 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
  [3] [4
 
 ] [5]
-<figures/examples/bicycle.jpg, id=23, 388.45125pt x 228.10219pt>
-File: figures/examples/bicycle.jpg Graphic file (type jpg)
-<use figures/examples/bicycle.jpg>
-Package pdftex.def Info: figures/examples/bicycle.jpg  used on input line 80.
+<figures/examples/drawing.jpg, id=23, 388.45125pt x 228.10219pt>
+File: figures/examples/drawing.jpg Graphic file (type jpg)
+<use figures/examples/drawing.jpg>
+Package pdftex.def Info: figures/examples/drawing.jpg  used on input line 81.
 (pdftex.def)             Requested size: 441.01773pt x 258.9776pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 81--81
-[]\T1/lmr/m/n/12 Rysunek 2.1: Przy-kªad kon-cep-cyj-nego ze-sta-wie-nia BOM dla
- ro-weru
+Underfull \hbox (badness 3514) in paragraph at lines 82--82
+[]\T1/lmr/m/n/12 Rysunek 2.1: Przy-kªad kon-cep-cyj-nego ze-sta-wie-nia BOM w f
+or-mie ry-sunku
  []
 
 [6
 
 ]
-<figures/examples/table.jpg, id=27, 473.51906pt x 219.06844pt>
+<figures/examples/graph.jpg, id=27, 472.01344pt x 268.75406pt>
+File: figures/examples/graph.jpg Graphic file (type jpg)
+<use figures/examples/graph.jpg>
+Package pdftex.def Info: figures/examples/graph.jpg  used on input line 92.
+(pdftex.def)             Requested size: 441.01773pt x 251.11153pt.
+
+Underfull \hbox (badness 6961) in paragraph at lines 93--93
+[]\T1/lmr/m/n/12 Rysunek 2.2: Przy-kªad kon-cep-cyj-nego ze-sta-wie-nia BOM w f
+or-mie grafu
+ []
+
+<figures/examples/table.jpg, id=28, 473.51906pt x 219.06844pt>
 File: figures/examples/table.jpg Graphic file (type jpg)
 <use figures/examples/table.jpg>
-Package pdftex.def Info: figures/examples/table.jpg  used on input line 92.
+Package pdftex.def Info: figures/examples/table.jpg  used on input line 101.
 (pdftex.def)             Requested size: 441.01773pt x 204.03905pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 93--93
-[]\T1/lmr/m/n/12 Rysunek 2.2: Przy-kªad ze-sta-wie-nia BOM w for-mie ta-beli
+Underfull \hbox (badness 10000) in paragraph at lines 102--102
+[]\T1/lmr/m/n/12 Rysunek 2.3: Przy-kªad ze-sta-wie-nia BOM w for-mie ta-beli
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 93--93
+Underfull \hbox (badness 10000) in paragraph at lines 102--102
 \T1/lmr/m/n/12 [https://www.unleashedsoftware.com/blog/everything-you-need-to-k
 now-about-
  []
 
-<figures/examples/hierarchy.jpg, id=28, 359.09157pt x 180.675pt>
+<figures/examples/hierarchy.jpg, id=29, 359.09157pt x 180.675pt>
 File: figures/examples/hierarchy.jpg Graphic file (type jpg)
 <use figures/examples/hierarchy.jpg>
-Package pdftex.def Info: figures/examples/hierarchy.jpg  used on input line 103
+Package pdftex.def Info: figures/examples/hierarchy.jpg  used on input line 112
 .
 (pdftex.def)             Requested size: 441.01773pt x 221.91187pt.
 
-Underfull \hbox (badness 3713) in paragraph at lines 104--104
-[]\T1/lmr/m/n/12 Rysunek 2.3: Przy-kªad ze-sta-wie-nia BOM w for-mie drzewa hie
+Underfull \hbox (badness 3713) in paragraph at lines 113--113
+[]\T1/lmr/m/n/12 Rysunek 2.4: Przy-kªad ze-sta-wie-nia BOM w for-mie drzewa hie
 -rar-chicz-nego
  []
 
-[7 <./figures/examples/bicycle.jpg>] [8 <./figures/examples/table.jpg>]
-[9 <./figures/examples/hierarchy.jpg>] [10
+[7 <./figures/examples/drawing.jpg>] [8 <./figures/examples/graph.jpg> <./figur
+es/examples/table.jpg>] [9 <./figures/examples/hierarchy.jpg>] [10
 
 ] [11
 
-] [12
+]
+[12
 
 ]
 
-LaTeX Warning: Empty `thebibliography' environment on input line 131.
+LaTeX Warning: Empty `thebibliography' environment on input line 157.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 128--131
+Underfull \hbox (badness 10000) in paragraph at lines 154--157
 []\T1/lmr/m/n/12 https://www.mecalux.pl/blog/zestawienie-materialowe-bom
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 128--131
+Underfull \hbox (badness 10000) in paragraph at lines 154--157
 \T1/lmr/m/n/12 https://www.system-kanban.pl/definicja/bom-bill-of-materials/
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 128--131
+Underfull \hbox (badness 10000) in paragraph at lines 154--157
 \T1/lmr/m/n/12 https://www.unleashedsoftware.com/blog/everything-you-need-to-kn
 ow-about-
  []
 
 [13
 
-] (weiiszablon.aux)
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
- ) 
+] (weiiszablon.aux) ) 
 Here is how much of TeX's memory you used:
- 7510 strings out of 478927
- 109938 string characters out of 2864781
- 456191 words of memory out of 3000000
- 25242 multiletter control sequences out of 15000+600000
- 439725 words of font info for 52 fonts, out of 8000000 for 9000
+ 7579 strings out of 478927
+ 110939 string characters out of 2864781
+ 456575 words of memory out of 3000000
+ 25306 multiletter control sequences out of 15000+600000
+ 442723 words of font info for 53 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 72i,6n,80p,852b,263s stack positions out of 5000i,500n,10000p,200000b,80000s
-{F:/PROGRAMS/MikTeX/fonts/enc/dvips/lm/lm-ec.enc}<F:/PROGRAMS/MikTeX/fonts/ty
-pe1/public/lm/lmbx10.pfb><F:/PROGRAMS/MikTeX/fonts/type1/public/lm/lmbx12.pfb><
-F:/PROGRAMS/MikTeX/fonts/type1/public/lm/lmr10.pfb><F:/PROGRAMS/MikTeX/fonts/ty
-pe1/public/lm/lmr12.pfb><F:/PROGRAMS/MikTeX/fonts/type1/public/lm/lmr17.pfb>
-Output written on weiiszablon.pdf (13 pages, 922148 bytes).
+ 72i,6n,80p,914b,263s stack positions out of 5000i,500n,10000p,200000b,80000s
+{F:/PROGRAMS/MikTeX/fonts/enc/dvips/lm/lm-ec.enc}<F:/PROGR
+AMS/MikTeX/fonts/type1/public/lm/lmbx10.pfb><F:/PROGRAMS/MikTeX/fonts/type1/pub
+lic/lm/lmbx12.pfb><F:/PROGRAMS/MikTeX/fonts/type1/public/lm/lmr10.pfb><F:/PROGR
+AMS/MikTeX/fonts/type1/public/lm/lmr12.pfb><F:/PROGRAMS/MikTeX/fonts/type1/publ
+ic/lm/lmr17.pfb>
+Output written on weiiszablon.pdf (13 pages, 964071 bytes).
 PDF statistics:
- 75 PDF objects out of 1000 (max. 8388607)
+ 76 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 21 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 26 words of extra memory for PDF output out of 10000 (max. 10000000)
 
