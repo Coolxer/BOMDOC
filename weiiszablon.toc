@@ -1,7 +1,7 @@
 \babel@toc {polish}{}\relax 
 \contentsline {section}{\numberline {1}Wstęp}{\footnotesize 5}{}%
-\contentsline {section}{\numberline {2}Opis problemu}{\footnotesize 5}{}%
-\contentsline {section}{\numberline {3}Rozwiązanie}{\footnotesize 5}{}%
-\contentsline {section}{\numberline {4}Przykłady użycia}{\footnotesize 5}{}%
-\contentsline {section}{\numberline {5}Podsumowanie}{\footnotesize 5}{}%
-\contentsline {section}{Literatura}{\footnotesize 5}{}%
+\contentsline {section}{\numberline {2}Opis problemu}{\footnotesize 6}{}%
+\contentsline {section}{\numberline {3}Rozwiązanie}{\footnotesize 10}{}%
+\contentsline {section}{\numberline {4}Przykłady użycia}{\footnotesize 11}{}%
+\contentsline {section}{\numberline {5}Podsumowanie}{\footnotesize 12}{}%
+\contentsline {section}{Literatura}{\footnotesize 13}{}%
