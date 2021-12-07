@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.9.30)  6 DEC 2021 22:12
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.9.30)  7 DEC 2021 07:53
 entering extended mode
 **./weiiszablon.tex
 (weiiszablon.tex
@@ -614,20 +614,20 @@ es/examples/table.jpg>] [9 <./figures/examples/hierarchy.jpg>] [10
 
 ]
 
-LaTeX Warning: Empty `thebibliography' environment on input line 157.
+LaTeX Warning: Empty `thebibliography' environment on input line 159.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 154--157
+Underfull \hbox (badness 10000) in paragraph at lines 156--159
 []\T1/lmr/m/n/12 https://www.mecalux.pl/blog/zestawienie-materialowe-bom
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 154--157
+Underfull \hbox (badness 10000) in paragraph at lines 156--159
 \T1/lmr/m/n/12 https://www.system-kanban.pl/definicja/bom-bill-of-materials/
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 154--157
+Underfull \hbox (badness 10000) in paragraph at lines 156--159
 \T1/lmr/m/n/12 https://www.unleashedsoftware.com/blog/everything-you-need-to-kn
 ow-about-
  []
@@ -648,7 +648,7 @@ AMS/MikTeX/fonts/type1/public/lm/lmbx10.pfb><F:/PROGRAMS/MikTeX/fonts/type1/pub
 lic/lm/lmbx12.pfb><F:/PROGRAMS/MikTeX/fonts/type1/public/lm/lmr10.pfb><F:/PROGR
 AMS/MikTeX/fonts/type1/public/lm/lmr12.pfb><F:/PROGRAMS/MikTeX/fonts/type1/publ
 ic/lm/lmr17.pfb>
-Output written on weiiszablon.pdf (13 pages, 964071 bytes).
+Output written on weiiszablon.pdf (13 pages, 964307 bytes).
 PDF statistics:
  76 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
