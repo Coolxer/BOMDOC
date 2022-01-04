@@ -13,6 +13,7 @@
 \usepackage{weiiszablon}
 \usepackage{csquotes}
 \usepackage{float}
+\usepackage{hyperref}
 
 \author{Łukasz Miłoś}
 
@@ -243,9 +244,9 @@ Na samej górze prezentowana jest nazwa zestawienia (produktu końcowego).
 
 Prezentowany widok drzewa składa się z 6 kolumn. Pierwsza kolumna stanowi identyfikator półproduktu, a następne oznaczają kolejno nazwę, ilość, jednostkę (kg., szt., m), cenę jednostkową i sumę (ilość * cena jednostkowa).
 
-Widok drzewa jest strukturą hierarchiczną (możliwość zwijania i rozwijania poszczególnych wierszy). Na samej górze jest wiersz pusty, służący do dodawania komponentów składowych dla najwyższego poziomu hierarchii Po prawej stronie widoczny jest pasek przewijania listy.
+Widok drzewa jest strukturą hierarchiczną (możliwość zwijania i rozwijania poszczególnych wierszy). Na samej górze jest wiersz pusty, służący do dodawania komponentów składowych dla najwyższego poziomu hierarchii. Po prawej stronie widoczny jest pasek przewijania listy.
 
-Na dole znajduje się panel sterowania, przy pomocy którego można dodać nowy komponent, edytować istniejący lub usunąć, a także powrócić do menu bez zapisywania.
+Na dole znajduje się panel sterowania, przy pomocy którego można dodać nowy komponent, edytować istniejący lub usunąć, a także powrócić do menu głównego.
 
 Poszczególne przyciski są aktywne tylko wtedy, gdy wybrany został dowolny wiersz. Zaznaczony wiersz jest wyróżniony kolorem i powiększoną czcionką. Zaznaczenie wiersza jest konieczne nie tylko w przypadku chęci usunięcia czy edycji, ale także do dodawania nowego komponentu, ponieważ zaznaczony wiersz determinuje miejsce wstawienia nowego elementu.
 
@@ -281,6 +282,8 @@ Usuwanie wybranego obiektu przedstawiono na zdjęciu (\ref{fig:app:bom_remove_it
 
 Wszelkie modyfikacje (dodawanie, edytowanie, usuwanie obiektów) powodują zaktualizowanie wyświetlanej listy i automatyczny zapis nowego zestawienia do pliku.
 
+Przy użyciu wspomnianych narzędzi użytkownik może w pełni kontrolować zestawienie materiałowe.
+
 \clearpage
 \section{Podsumowanie}
 W ramach projektu stworzono pełnoprawną aplikację desktop'ową do zarządzania bazą BOM. Zagadnienie BOM (Bill Of Materials) jest istotne z perspektywy wielu przedsiębiorstw, stąd zainteresowanie tą tematyką.
@@ -301,20 +304,17 @@ Aplikacja umożliwia pełny przepływ informacji, rozpoczynający się od wczyta
 
 Esencją projektu jest wykorzystanie drzewa widoku do prezentacji zestawienia, możliwość zwijania i rozwijania poszczególnych poziomów zagnieżdżenia. Zaimplementowano także funkcje dodawania, edycji i usuwania komponentów. Do wspomnianych celów wykorzystano specjalnie zaprojektowane formularze wzbogacone o walidację danych.
 
-Podsumowując, wszelkie założenia zostały spełnione, a aplikacja działa prawidłowo.
-
-
-
+W realizacji projektu wykorzystano system kontroli wersji GIT, a kod programu umieszczono na zdalnym repozytorium Github pod linkiem \url{https://github.com/Coolxer/BOMPY}.
 
 \clearpage
 
-\addcontentsline{toc}{section}{Literatura}
-\begin{thebibliography}{8}
-\label{sec:bibliography}
-https://www.mecalux.pl/blog/zestawienie-materialowe-bom
-https://www.system-kanban.pl/definicja/bom-bill-of-materials/
-https://www.unleashedsoftware.com/blog/everything-you-need-to-know-about-bill-of-materials
+\addcontentsline{toc}{section}{Źródła}
+\begin{thebibliography}{5}
+\bibitem{python} https://docs.python.org/3/
+\bibitem{tkinter} https://docs.python.org/3/library/tk.html
+\bibitem{bom_1} https://www.mecalux.pl/blog/zestawienie-materialowe-bom
+\bibitem{bom_2} https://www.unleashedsoftware.com/blog/everything-you-need-to-know-about-bill-of-materials
 \end{thebibliography}
-\clearpage
 
+\clearpage
 \end{document} 
