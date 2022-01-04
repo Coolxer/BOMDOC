@@ -14,6 +14,9 @@
 \usepackage{csquotes}
 \usepackage{float}
 \usepackage{hyperref}
+\usepackage{caption}
+
+\newcommand{\source}[1]{\caption*{\textcolor{blue}{Źródło: {#1}}} }
 
 \author{Łukasz Miłoś}
 
@@ -80,18 +83,20 @@ Wyjściowym etapem w konstrukcji zestawienia materiałowego może być ogólne, 
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=\textwidth]{figures/examples/drawing.jpg}
-	\caption{Przykład koncepcyjnego zestawienia BOM w formie rysunku [https://www.mecalux.pl/blog/zestawienie-materialowe-bom]}
+	\caption{Przykład koncepcyjnego zestawienia BOM w formie rysunku}
+	\source{https://www.mecalux.pl/blog/zestawienie-materialowe-bom}
 \label{fig:example:drawing}
 \end{figure}
 
-Należy zwrócić uwagę, że poszczególne elementy składowe, także składają się z mniejszych komponentów (hierarchia). Ważne jest zaprezentowanie odpowiedniego stopnia złożoności, który zależy od specyfiki danego przedsiębiorstwa. Przykładowo dla firmy produkującej rowery, schemat (\ref{fig:example:drawing}) może okazać się wystarczający, jeśli korzysta ona z gotowych produktów innych firm, a nie tworzy wszystkiego na własną rękę. Przykładem jest tutaj półprodukt hamulca. O ile firma zakupuje gotowe hamulce od innej marki i tylko montuje je w swoich rowerach to ten poziom wyszczególnienia jest wystarczający. Natomiast w przypadku produkcji hamulców na wewnętrznie, należałoby dodatkowo wyszczególnić części składowe hamulca (m.in. rączkę, mocowanie, śruby mocujące, linkę, gumki ścieralne, gumki ochronne, smar itd.).
+Należy zwrócić uwagę, że poszczególne elementy składowe, także składają się z mniejszych komponentów (hierarchia). Ważne jest zaprezentowanie odpowiedniego stopnia złożoności, który zależy od specyfiki danego przedsiębiorstwa. Przykładowo dla firmy produkującej rowery, schemat (\ref{fig:example:drawing}) może okazać się wystarczający, jeśli korzysta ona z gotowych produktów innych firm, a nie tworzy wszystkiego na własną rękę. Przykładem jest tutaj półprodukt hamulca. O ile firma zakupuje gotowe hamulce od innej marki i tylko montuje je w swoich rowerach to ten poziom wyszczególnienia jest wystarczający. Natomiast w przypadku produkcji hamulców wewnętrznie, należałoby dodatkowo wyszczególnić części składowe hamulca (m.in. rączkę, mocowanie, śruby mocujące, linkę, gumki ścieralne, gumki ochronne, smar itd.).
 
 Innym sposobem koncepcyjnego zapisu zestawienia materiałowego dowolnego produktu może być graf (\ref{fig:example:graph}). Na podstawie grafu można przedstawić hierarchię, ale nie jest możliwe przedstawienie informacji szczegółowych dotyczących poszczególnych wyrobów.
 
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=\textwidth]{figures/examples/graph.jpg}
-	\caption{Przykład koncepcyjnego zestawienia BOM w formie grafu [https://logistykanalogike.wordpress.com/2014/12/18/struktura-wyrobu/]}
+	\caption{Przykład koncepcyjnego zestawienia BOM w formie grafu}
+	\source{https://logistykanalogike.wordpress.com/2014/12/18/struktura-wyrobu/}
 \label{fig:example:graph}
 \end{figure}
 
@@ -100,7 +105,8 @@ W rzeczywistości zestawienia materiałowe przyjmują jednak formę tabeli (\ref
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=\textwidth]{figures/examples/table.jpg}
-	\caption{Przykład zestawienia BOM w formie tabeli [https://www.unleashedsoftware.com/blog/everything-you-need-to-know-about-bill-of-materials]}
+	\caption{Przykład zestawienia BOM w formie tabeli}
+	\source{https://www.unleashedsoftware.com/blog/everything-you-need-to-know-about-bill-of-materials}
 \label{fig:example:table}
 \end{figure}
 
@@ -111,7 +117,8 @@ Najlepszym sposobem prezentacji zestawienia materiałowego (BOM) jest pokazanie 
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=\textwidth]{figures/examples/hierarchy.jpg}
-	\caption{Przykład zestawienia BOM w formie drzewa hierarchicznego [https://underthehood-autodesk.typepad.com/blog/items/page/2/]}
+	\caption{Przykład zestawienia BOM w formie drzewa hierarchicznego}
+	\source{https://underthehood-autodesk.typepad.com/blog/items/page/2/}
 \label{fig:example:hierarchy}
 \end{figure}
 
@@ -126,7 +133,7 @@ Projekt jest zatem próbą znalezienia rozwiązania poprzez utworzenie własnego
 \clearpage
 \section{Rozwiązanie}
 
-Sekcję rozwiązania podzielono na 3 części: zalecenia, założenia i opis. Pierwsza z~nich ogólnie przedstawia wyobrażenie idealnego systemu. Założenia są efektem podjęcia decyzji odnośnie wyboru technologii, która umożliwi realizację celu. Ostatnia z~części stanowi opis systemu.
+Sekcję rozwiązania podzielono na 4 części: zalecenia, założenia, opis, uruchomienie. Pierwsza z~nich ogólnie przedstawia wyobrażenie idealnego systemu. Założenia są efektem podjęcia decyzji odnośnie wyboru technologii, która umożliwi realizację celu. Ostatnia z~części krótko omawia sposób uruchomienia aplikacji.
 
 \subsection*{Zalecenia}
 Analiza problemu doprowadziła do powstania pewnych zaleceń implementowanego systemu. Celem jest wykorzystanie zalet innych systemów, a także eliminacja ich wad. Najważniejsze zalecenia spisano poniżej:
@@ -263,7 +270,7 @@ Na zdjęciu (\ref{fig:app:bom_add_item}) przedstawiono przykład dodawania obiek
 \end{figure}
 
 \paragraph*{Edytowanie obiektu}\mbox{}\\
-Na zdjęciu (\ref{fig:app:bom_add_item}) pokazano edytowanie obiektu za pomocą formularza. Wszelkie parametry są ładowane według bieżących danych, a użytkownik może modyfikować wybrane pola. Tutaj oczywiście również jest walidacja poprawności wpisywanych danych, a~także sprawdzenie integralności identyfikatora, przy czym identyfikator może pozostać niezmieniony. 
+Na zdjęciu (\ref{fig:app:bom_edit_item}) pokazano edytowanie obiektu za pomocą formularza. Wszelkie parametry są ładowane według bieżących danych, a użytkownik może modyfikować wybrane pola. Tutaj oczywiście również jest walidacja poprawności wpisywanych danych, a~także sprawdzenie integralności identyfikatora, przy czym identyfikator może pozostać niezmieniony. 
 
 \begin{figure}[H]
 	\centering
@@ -285,6 +292,15 @@ Usuwanie wybranego obiektu przedstawiono na zdjęciu (\ref{fig:app:bom_remove_it
 Wszelkie modyfikacje (dodawanie, edytowanie, usuwanie obiektów) powodują zaktualizowanie wyświetlanej listy i automatyczny zapis nowego zestawienia do pliku.
 
 Przy użyciu wspomnianych narzędzi użytkownik może w pełni kontrolować zestawienie materiałowe.
+
+\subsection*{Uruchomienie}
+W celu uruchomienia aplikacji należy ją pobrać ze zdalnego repozytorium \url{https://github.com/Coolxer/BOMPY} i rozpakować w dowolnym miejscu.
+
+Do uruchomienia aplikacji niezbędne jest posiadanie interpretera Python i wbudowanej biblioteki tkinter (instalowana automatycznie wraz z interpreterem o ile nie odznaczono tej opcji).
+
+W katalogu głównym aplikacji znajduje się plik \textbf{main.py}, który należy uruchomić przy pomocy interpretera.
+
+Jeśli wszystko wykonano prawidłowo na ekranie powinno się wyświetlić okno graficzne aplikacji, w przeciwnym wypadku należy rozwiązać wyświetlone błędy.
 
 \clearpage
 \section{Podsumowanie}
