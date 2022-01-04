@@ -76,7 +76,7 @@ Poszczególne elementy posiadają kilka cech (atrybutów). W zależności od imp
 
 Wyjściowym etapem w konstrukcji zestawienia materiałowego może być ogólne, koncepcyjne przedstawienie części składowych produktu finalnego w formie rysunku (\ref{fig:example:drawing}) lub grafu (\ref{fig:example:graph}).
 
-\begin{figure}[ht]
+\begin{figure}[h]
 	\centering
 	\includegraphics[width=\textwidth]{figures/examples/drawing.jpg}
 	\caption{Przykład koncepcyjnego zestawienia BOM w formie rysunku [https://www.mecalux.pl/blog/zestawienie-materialowe-bom]}
@@ -87,7 +87,7 @@ Należy zwrócić uwagę, że poszczególne elementy składowe, także składaj�
 
 Innym sposobem koncepcyjnego zapisu zestawienia materiałowego dowolnego produktu może być graf (\ref{fig:example:graph}). Na podstawie grafu można przedstawić hierarchię, ale nie jest możliwe przedstawienie informacji szczegółowych dotyczących poszczególnych wyrobów.
 
-\begin{figure}[ht]
+\begin{figure}[h]
 	\centering
 	\includegraphics[width=\textwidth]{figures/examples/graph.jpg}
 	\caption{Przykład koncepcyjnego zestawienia BOM w formie grafu [https://logistykanalogike.wordpress.com/2014/12/18/struktura-wyrobu/]}
@@ -96,7 +96,7 @@ Innym sposobem koncepcyjnego zapisu zestawienia materiałowego dowolnego produkt
 
 W rzeczywistości zestawienia materiałowe przyjmują jednak formę tabeli (\ref{fig:example:table}) lub hierarchii (\ref{fig:example:hierarchy}), z wyszczególnieniem poszczególnych elementów składowych.
 
-\begin{figure}[ht]
+\begin{figure}[h]
 	\centering
 	\includegraphics[width=\textwidth]{figures/examples/table.jpg}
 	\caption{Przykład zestawienia BOM w formie tabeli [https://www.unleashedsoftware.com/blog/everything-you-need-to-know-about-bill-of-materials]}
@@ -107,7 +107,7 @@ Niestety wykorzystanie tabeli nie przedstawia wprost hierarchii poszczególnych 
 
 Najlepszym sposobem prezentacji zestawienia materiałowego (BOM) jest pokazanie hierarchii (\ref{fig:example:hierarchy}), np. za pomocą drzewa hierachicznego (treeview).
 
-\begin{figure}[ht]
+\begin{figure}[h]
 	\centering
 	\includegraphics[width=\textwidth]{figures/examples/hierarchy.jpg}
 	\caption{Przykład zestawienia BOM w formie drzewa hierarchicznego [https://underthehood-autodesk.typepad.com/blog/items/page/2/]}
@@ -154,7 +154,7 @@ Aplikacja składa się z kilku stron i wielu okien modalnych, wyświetlanych w z
 \subsubsection*{Menu główne}
 Na zdjęciu (\ref{fig:app:menu}) widoczne jest menu główne aplikacji. Z poziomu menu głównego możliwe jest zamknięcie aplikacji, wyświetlenie strony informacyjnej, wczytanie zestawienia BOM z pliku lub utworzenie nowego zestawienia BOM.
 
-\begin{figure}[ht]
+\begin{figure}[h]
 	\centering
 	\includegraphics[width=\textwidth]{figures/app/menu.jpg}
 	\caption{Menu główne aplikacji}
@@ -164,7 +164,7 @@ Na zdjęciu (\ref{fig:app:menu}) widoczne jest menu główne aplikacji. Z poziom
 \subsubsection*{Strona informacyjna}
 
 Na zdjęciu (\ref{fig:app:info}) przedstawiono stronę informacyjną zawierającą krótką charakterystykę programu, autora i linki do repozytoriów.
-\begin{figure}[ht]
+\begin{figure}[h]
 	\centering
 	\includegraphics[width=\textwidth]{figures/app/info.jpg}
 	\caption{Strona informacyjna aplikacji}
@@ -173,28 +173,31 @@ Na zdjęciu (\ref{fig:app:info}) przedstawiono stronę informacyjną zawierając
 
 \subsubsection*{Wczytanie zestawienia BOM}
 
-W kwestii wczytywania zestawienia z pliku o formacie json (\ref{fig:app:read_file}) warto zwrócić uwagę na walidację poprawności pliku. Plik programowy musi być odpowiedni, tzn. przeznaczony dla tej aplikacji (odpowiedni klucz i wartość). Jeśli stwierdzona zostanie niepoprawność pliku źródłowego, zostanie wyświetlony odpowiedni komunikat (\ref{app:read_file_err}).
+W kwestii wczytywania zestawienia z pliku o formacie *.json warto zwrócić uwagę na walidację poprawności pliku. Plik programowy musi być odpowiedni, tzn. przeznaczony dla tej aplikacji (odpowiedni klucz i wartość). 
 
-W celu wczytywania pliku wykorzystano dostępne okno dialogowe, które odpowiednio skonfigurowano, tak aby do wyboru były jednie pliki o rozszerzeniu *.json.
+W celu wczytywania pliku wykorzystano dostępne okno dialogowe (\ref{fig:app:read_file}), które odpowiednio skonfigurowano, tak aby możliwe do wyboru były jednie pliki o rozszerzeniu *.json.
 
-\begin{figure}[ht]
+\begin{figure}[h]
 	\centering
 	\includegraphics[width=\textwidth]{figures/app/read_file.jpg}
 	\caption{Wybór pliku zestawienia}
 \label{fig:app:read_file}
 \end{figure}
 
-\begin{figure}[ht]
+Jeśli stwierdzona zostanie niepoprawność pliku źródłowego, zostanie wyświetlony odpowiedni komunikat (\ref{fig:app:read_file_err}).
+
+\begin{figure}[h]
 	\centering
 	\includegraphics[width=\textwidth]{figures/app/read_file_err.jpg}
 	\caption{Błędny plik zestawienia}
 \label{fig:app:read_file_err}
 \end{figure}
 
+
 \subsubsection*{Tworzenie nowego zestawienia BOM}
 Po wybraniu opcji \enquote*{Utwórz zestawienie (BOM)} z menu głównego, pojawia się okno dialogowe (\ref{fig:app:create_bom_dialog}), w którym należy podać nazwę zestawienia. 
 
-\begin{figure}[ht]
+\begin{figure}[h]
 	\centering
 	\includegraphics[width=\textwidth]{figures/app/create_bom_dialog.jpg}
 	\caption{Tworzenie nowego zestawienia}
@@ -203,14 +206,14 @@ Po wybraniu opcji \enquote*{Utwórz zestawienie (BOM)} z menu głównego, pojawi
 
 Nazwa zestawienia musi spełniać kryterium minimum 3 znaków i maksymalnie 10 znaków. W przeciwnym razie zostanie wyświetlony stosowny komunikat (\ref{fig:app:name_too_short_err}) lub (\ref{fig:app:name_too_long_err})
 
-\begin{figure}[ht]
+\begin{figure}[h]
 	\centering
 	\includegraphics[width=\textwidth]{figures/app/name_too_short_err.jpg}
 	\caption{Błąd zbyt krótkiej nazwy zestawienia}
 \label{fig:app:name_too_short_err}
 \end{figure}
 
-\begin{figure}[ht]
+\begin{figure}[H]
 	\centering
 	\includegraphics[width=\textwidth]{figures/app/name_too_long_err.jpg}
 	\caption{Błąd zbyt długiej nazwy zestawienia}
@@ -219,7 +222,7 @@ Nazwa zestawienia musi spełniać kryterium minimum 3 znaków i maksymalnie 10 z
 
 Jeśli podana nazwa jest prawidłowa użytkownik przy użyciu stosownego okna dialogowego (\ref{fig:app:save_file}) wybiera nazwę i lokalizację pliku, w którym jego zestawienie będzie na bieżąco zapisywane.
 
-\begin{figure}[ht]
+\begin{figure}[H]
 	\centering
 	\includegraphics[width=\textwidth]{figures/app/save_file.jpg}
 	\caption{Wybór nazwy i lokalizacji pliku nowego zestawienia}
@@ -229,63 +232,79 @@ Jeśli podana nazwa jest prawidłowa użytkownik przy użyciu stosownego okna di
 \subsubsection*{Przegląd i modyfikacja zestawienia}
 Po pomyślnym wczytaniu zestawienia lub utworzeniu nowego zestawienia użytkownik zostaje przekierowany na stronę prezentującą zestawienie (\ref{fig:app:bom_presentation}).
 
-\begin{figure}[ht]
+\begin{figure}[h]
 	\centering
 	\includegraphics[width=\textwidth]{figures/app/bom_presentation.jpg}
 	\caption{Prezentacja przykładowego zestawienia}
 \label{fig:app:bom_presentation}
 \end{figure}
 
-Na zrzucie ekranu (\ref{fig:app:bom_presentation}) zaprezentowano fragment przykładowego zestawienia materiałowego dla roweru. Na samej górze prezentowana jest nazwa zestawienia stanowiąca najczęściej produkt końcowy.
+Na samej górze prezentowana jest nazwa zestawienia (produktu końcowego).
 
 Prezentowany widok drzewa składa się z 6 kolumn. Pierwsza kolumna stanowi identyfikator półproduktu, a następne oznaczają kolejno nazwę, ilość, jednostkę (kg., szt., m), cenę jednostkową i sumę (ilość * cena jednostkowa).
 
-Widok drzewa jest strukturą hierarchiczną (możliwość zwijania i rozwijania poszczególnych wierszy). Na samej górze jest wiersz pusty, służący do dodawania komponentów składowych dla najwyższego poziomu hierarchii.
-
-Zaznaczony wiersz jest wyróżniony kolorem i powiększoną czcionką.
-
-Po prawej stronie widoczny jest pasek przewijania listy.
+Widok drzewa jest strukturą hierarchiczną (możliwość zwijania i rozwijania poszczególnych wierszy). Na samej górze jest wiersz pusty, służący do dodawania komponentów składowych dla najwyższego poziomu hierarchii Po prawej stronie widoczny jest pasek przewijania listy.
 
 Na dole znajduje się panel sterowania, przy pomocy którego można dodać nowy komponent, edytować istniejący lub usunąć, a także powrócić do menu bez zapisywania.
 
-Poszczególne przyciski są aktywne tylko wtedy, gdy wybrany został dowolny wiersz. Zaznaczenie wiersza jest konieczne nie tylko w przypadku chęci usunięcia czy edycji, ale także do dodawania nowego komponentu, ponieważ zaznaczony wiersz determinuje miejsce wstawienia nowego elementu.
+Poszczególne przyciski są aktywne tylko wtedy, gdy wybrany został dowolny wiersz. Zaznaczony wiersz jest wyróżniony kolorem i powiększoną czcionką. Zaznaczenie wiersza jest konieczne nie tylko w przypadku chęci usunięcia czy edycji, ale także do dodawania nowego komponentu, ponieważ zaznaczony wiersz determinuje miejsce wstawienia nowego elementu.
 
-\paragraph*{Dodawanie obiektu}
+\paragraph*{Dodawanie obiektu}\mbox{}\\
+Na zdjęciu (\ref{fig:app:bom_add_item}) przedstawiono przykład dodawania obiektu przy użyciu specjalnie zaprojektowanego formularza. Użytkownik wypełnia poszczególne pola edycyjne. W przypadku wyboru jednostki komponentu zastosowano listę wyboru. Dla każdego interaktywnego pola tekstowego prowadzona jest walidacja poprawności (minimalna/maksymalna długość, typ tekstowy/numeryczny), a dla identyfikatora także unikatowość. W przypadku niespełnienia wymogów na ekranie wyświetlany jest stosowny komunikat modalny.
 
-Na zdjęciu (\ref{fig:app:bom_add_item}) przedstawiono przykład dodawania obiektu przy użyciu specjalnie zaprojektowanego formularza. Użytkownik wypełnia poszczególne pola edycyjne. W przypadku wyboru jednostki komponentu zastosowano listę wyboru. Dla każdego interaktywnego pola tekstowego prowadzona jest walidacja poprawności (minimalna/maksymalna długość typ tekstowy/numeryczny, unikatowość identyfikatora), a w przypadku niespełnienia wymogów na ekranie wyświetlany jest stosowny komunikat modalny.
-
-\begin{figure}[ht]
+\begin{figure}[H]
 	\centering
-	\includegraphics[width=\textwidth]{figures/app/bom_add_item.jpg}
+	\includegraphics[width=0.7\textwidth]{figures/app/bom_add_item.jpg}
 	\caption{Dodawanie obiektu}
 \label{fig:app:bom_add_item}
 \end{figure}
 
-\paragraph*{Edytowanie obiektu}
-Na zdjęciu (\ref{fig:app:bom_add_item} pokazano edytowanie obiektu za pomocą formularza. Wszelkie parametry są ładowane według bieżących danych, a użytkownik może modyfikować wybrane pola. Tutaj oczywiście również jest walidacja poprawności wpisywanych danych, a także sprawdzenie integralności identyfikatora, przy czym identyfikator może pozostać niezmieniony. 
+\paragraph*{Edytowanie obiektu}\mbox{}\\
+Na zdjęciu (\ref{fig:app:bom_add_item}) pokazano edytowanie obiektu za pomocą formularza. Wszelkie parametry są ładowane według bieżących danych, a użytkownik może modyfikować wybrane pola. Tutaj oczywiście również jest walidacja poprawności wpisywanych danych, a także sprawdzenie integralności identyfikatora, przy czym identyfikator może pozostać niezmieniony. 
 
-\begin{figure}[ht]
+\begin{figure}[H]
 	\centering
-	\includegraphics[width=\textwidth]{figures/app/bom_edit_item.jpg}
+	\includegraphics[width=0.7\textwidth]{figures/app/bom_edit_item.jpg}
 	\caption{Edytowanie obiektu}
 \label{fig:app:bom_edit_item}
 \end{figure}
 
-\paragraph*{Usuwanie obiektu}
+\paragraph*{Usuwanie obiektu}\mbox{}\\
 Usuwanie wybranego obiektu przedstawiono na zdjęciu (\ref{fig:app:bom_remove_item}). Użytkownik musi potwierdzić czy żąda usunięcia danego obiektu, ponieważ zmiany są nieodwracalne.
 
-Wszelkie modyfikacje (dodawanie, edytowanie, usuwanie obiektów) powodują zaktualizowanie wyświetlanej listy i automatyczny zapis nowego zestawienia do pliku.
-
-\begin{figure}[ht]
+\begin{figure}[H]
 	\centering
 	\includegraphics[width=\textwidth]{figures/app/bom_remove_item.jpg}
 	\caption{Usuwanie obiektu}
 \label{fig:app:bom_remove_item}
 \end{figure}
 
+Wszelkie modyfikacje (dodawanie, edytowanie, usuwanie obiektów) powodują zaktualizowanie wyświetlanej listy i automatyczny zapis nowego zestawienia do pliku.
 
 \clearpage
 \section{Podsumowanie}
+W ramach projektu stworzono pełnoprawną aplikację desktop'ową do zarządzania bazą BOM. Zagadnienie BOM (Bill Of Materials) jest istotne z perspektywy wielu przedsiębiorstw, stąd zainteresowanie tą tematyką.
+
+Realizację tematu rozpoczęto od analizy zagadnienia i sporządzenia zaleceń programu. Następnie podjęto pewne założenia dotyczące wyboru technologii i najważniejszych kwestii programowych. 
+
+Wybór Python'a jako języka wiodącego projektu był bardzo trafnym rozwiązaniem, ponieważ jest on bardzo intuicyjny, a wiedza i doświadczenie zdobyte podczas realizacji tego projektu z pewnością zaowocuje w przyszłości, zwłaszcza, że python rośnie w popularności i mnogości zastosowań.
+
+Wybrana biblioteka graficzna tkinter okazała się być dość trudną w zastosowaniu, ponieważ wiele elementów należało wykonać samodzielnie. Jednak pozostałe alternatywy nie są wbudowane w interpreter i/lub wymagają płatnej licencji.
+
+Wybór formatu *.json był oczywistą kwestią ze względu na jego hierarchiczność, a także łatwość obsługi i popularność w środowisku programistycznym.
+
+Podczas projektowania aplikacji zadbano o modernistyczny i responsywny interfejs użytkownika, a także przejrzystość prezentowania wszelkich informacji. Dużą uwagę skupiono na estetyce kodu, wykorzystując paradygmat programowania obiektowego, a także wzbogacając kod źródłowy komentarzami.
+
+Zdobyte w przeszłości doświadczenia spowodowały zaimplementowanie wielu walidacji danych wejściowych, a także obsługę znacznej ilości błędów.
+
+Aplikacja umożliwia pełny przepływ informacji, rozpoczynający się od wczytania/utworzenia pliku, modyfikacji zawartości i zapisu pliku.
+
+Esencją projektu jest wykorzystanie drzewa widoku do prezentacji zestawienia, możliwość zwijania i rozwijania poszczególnych poziomów zagnieżdżenia. Zaimplementowano także funkcje dodawania, edycji i usuwania komponentów. Do wspomnianych celów wykorzystano specjalnie zaprojektowane formularze wzbogacone o walidację danych.
+
+Podsumowując, wszelkie założenia zostały spełnione, a aplikacja działa prawidłowo.
+
+
+
 
 \clearpage
 

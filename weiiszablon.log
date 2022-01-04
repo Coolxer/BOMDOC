@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.9.30)  4 JAN 2022 12:35
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.9.30)  4 JAN 2022 13:50
 entering extended mode
 **./weiiszablon.tex
 (weiiszablon.tex
@@ -562,6 +562,9 @@ Underfull \hbox (badness 3514) in paragraph at lines 82--82
 or-mie ry-sunku
  []
 
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
 [6
 
 ]
@@ -575,6 +578,9 @@ Underfull \hbox (badness 6961) in paragraph at lines 93--93
 []\T1/lmr/m/n/12 Rysunek 2.2: Przy-kªad kon-cep-cyj-nego ze-sta-wie-nia BOM w f
 or-mie grafu
  []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
 
 <figures/examples/table.jpg, id=28, 473.51906pt x 219.06844pt>
 File: figures/examples/table.jpg Graphic file (type jpg)
@@ -592,6 +598,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 102--102
 now-about-
  []
 
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
 <figures/examples/hierarchy.jpg, id=29, 359.09157pt x 180.675pt>
 File: figures/examples/hierarchy.jpg Graphic file (type jpg)
 <use figures/examples/hierarchy.jpg>
@@ -603,6 +612,9 @@ Underfull \hbox (badness 3713) in paragraph at lines 113--113
 []\T1/lmr/m/n/12 Rysunek 2.4: Przy-kªad ze-sta-wie-nia BOM w for-mie drzewa hie
 -rar-chicz-nego
  []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
 
 [7 <./figures/examples/drawing.jpg>] [8 <./figures/examples/graph.jpg>]
 [9 <./figures/examples/table.jpg> <./figures/examples/hierarchy.jpg>] [10
@@ -620,121 +632,135 @@ Package pdftex.def Info: figures/app/info.jpg  used on input line 169.
 (pdftex.def)             Requested size: 441.01773pt x 357.40912pt.
 
 [11 <./figures/app/menu.jpg>]
-
-LaTeX Warning: Reference `app:read_file_err' on page \footnotesize 12 undefined
- on input line 176.
-
 <figures/app/read_file.jpg, id=48, 710.655pt x 400.49625pt>
 File: figures/app/read_file.jpg Graphic file (type jpg)
 <use figures/app/read_file.jpg>
 Package pdftex.def Info: figures/app/read_file.jpg  used on input line 182.
 (pdftex.def)             Requested size: 441.01773pt x 248.54344pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
 <figures/app/read_file_err.jpg, id=49, 378.66469pt x 100.87688pt>
 File: figures/app/read_file_err.jpg Graphic file (type jpg)
 <use figures/app/read_file_err.jpg>
-Package pdftex.def Info: figures/app/read_file_err.jpg  used on input line 189.
+Package pdftex.def Info: figures/app/read_file_err.jpg  used on input line 191.
 
 (pdftex.def)             Requested size: 441.01773pt x 117.48979pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
 <figures/app/create_bom_dialog.jpg, id=50, 527.72156pt x 173.89969pt>
 File: figures/app/create_bom_dialog.jpg Graphic file (type jpg)
 <use figures/app/create_bom_dialog.jpg>
 Package pdftex.def Info: figures/app/create_bom_dialog.jpg  used on input line 
-199.
+202.
 (pdftex.def)             Requested size: 441.01773pt x 145.32643pt.
+[12 <./figures/app/info.jpg>]
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+LaTeX Warning: `h' float specifier changed to `ht'.
 
- [12 <./figures/app/info.jpg>]
 <figures/app/name_too_short_err.jpg, id=54, 527.72156pt x 137.01187pt>
 File: figures/app/name_too_short_err.jpg Graphic file (type jpg)
 <use figures/app/name_too_short_err.jpg>
 Package pdftex.def Info: figures/app/name_too_short_err.jpg  used on input line
- 208.
+ 211.
 (pdftex.def)             Requested size: 441.01773pt x 114.49962pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
 <figures/app/name_too_long_err.jpg, id=55, 527.72156pt x 137.01187pt>
 File: figures/app/name_too_long_err.jpg Graphic file (type jpg)
 <use figures/app/name_too_long_err.jpg>
 Package pdftex.def Info: figures/app/name_too_long_err.jpg  used on input line 
-215.
+218.
 (pdftex.def)             Requested size: 441.01773pt x 114.49962pt.
-<figures/app/save_file.jpg, id=56, 709.90219pt x 398.99063pt>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [13 <./figures/app/read_file.jpg> <./figures/app/read_file_err.jpg>]
+<figures/app/save_file.jpg, id=60, 709.90219pt x 398.99063pt>
 File: figures/app/save_file.jpg Graphic file (type jpg)
 <use figures/app/save_file.jpg>
-Package pdftex.def Info: figures/app/save_file.jpg  used on input line 224.
+Package pdftex.def Info: figures/app/save_file.jpg  used on input line 227.
 (pdftex.def)             Requested size: 441.01773pt x 247.87085pt.
-<figures/app/bom_presentation.jpg, id=57, 755.07094pt x 566.86781pt>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [14 <./figures/app/create_bom_dialog.jpg> <./figures/app/name_too_short_err.jp
+g> <./figures/app/name_too_long_err.jpg>]
+<figures/app/bom_presentation.jpg, id=64, 755.07094pt x 566.86781pt>
 File: figures/app/bom_presentation.jpg Graphic file (type jpg)
 <use figures/app/bom_presentation.jpg>
 Package pdftex.def Info: figures/app/bom_presentation.jpg  used on input line 2
-34.
+37.
 (pdftex.def)             Requested size: 441.01773pt x 331.09302pt.
 
-Underfull \vbox (badness 6526) has occurred while \output is active []
 
- [13 <./figures/app/read_file.jpg> <./figures/app/read_file_err.jpg>] [14 <./fi
-gures/app/create_bom_dialog.jpg> <./figures/app/name_too_short_err.jpg>] [15 <.
-/figures/app/name_too_long_err.jpg> <./figures/app/save_file.jpg>]
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[15 <./figures/app/save_file.jpg>]
 <figures/app/bom_add_item.jpg, id=68, 453.19313pt x 335.75438pt>
 File: figures/app/bom_add_item.jpg Graphic file (type jpg)
 <use figures/app/bom_add_item.jpg>
-Package pdftex.def Info: figures/app/bom_add_item.jpg  used on input line 259.
-(pdftex.def)             Requested size: 441.01773pt x 326.73672pt.
-<figures/app/bom_edit_item.jpg, id=69, 453.19313pt x 322.95656pt>
+Package pdftex.def Info: figures/app/bom_add_item.jpg  used on input line 257.
+(pdftex.def)             Requested size: 308.71106pt x 228.71468pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [16 <./figures/app/bom_presentation.jpg>]
+<figures/app/bom_edit_item.jpg, id=72, 453.19313pt x 322.95656pt>
 File: figures/app/bom_edit_item.jpg Graphic file (type jpg)
 <use figures/app/bom_edit_item.jpg>
-Package pdftex.def Info: figures/app/bom_edit_item.jpg  used on input line 269.
+Package pdftex.def Info: figures/app/bom_edit_item.jpg  used on input line 267.
 
-(pdftex.def)             Requested size: 441.01773pt x 314.28262pt.
-<figures/app/bom_remove_item.jpg, id=70, 377.15906pt x 100.12407pt>
+(pdftex.def)             Requested size: 308.71106pt x 219.99686pt.
+ [17 <./figures/app/bom_add_item.jpg> <./figures/app/bom_edit_item.jpg>]
+<figures/app/bom_remove_item.jpg, id=76, 377.15906pt x 100.12407pt>
 File: figures/app/bom_remove_item.jpg Graphic file (type jpg)
 <use figures/app/bom_remove_item.jpg>
-Package pdftex.def Info: figures/app/bom_remove_item.jpg  used on input line 28
-1.
+Package pdftex.def Info: figures/app/bom_remove_item.jpg  used on input line 27
+7.
 (pdftex.def)             Requested size: 441.01773pt x 117.07591pt.
- [16 <./figures/app/bom_presentation.jpg>] [17 <./figures/app/bom_add_item.jpg>
-] [18 <./figures/app/bom_edit_item.jpg> <./figures/app/bom_remove_item.jpg>] [1
-9
+ [18 <./figures/app/bom_remove_item.jpg>] [19
 
 ]
 
-LaTeX Warning: Empty `thebibliography' environment on input line 298.
+LaTeX Warning: Empty `thebibliography' environment on input line 317.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 295--298
+Underfull \hbox (badness 10000) in paragraph at lines 314--317
 []\T1/lmr/m/n/12 https://www.mecalux.pl/blog/zestawienie-materialowe-bom
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 295--298
+Underfull \hbox (badness 10000) in paragraph at lines 314--317
 \T1/lmr/m/n/12 https://www.system-kanban.pl/definicja/bom-bill-of-materials/
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 295--298
+Underfull \hbox (badness 10000) in paragraph at lines 314--317
 \T1/lmr/m/n/12 https://www.unleashedsoftware.com/blog/everything-you-need-to-kn
 ow-about-
  []
 
 [20
 
-] (weiiszablon.aux)
-
-LaTeX Warning: There were undefined references.
-
- ) 
+] (weiiszablon.aux) ) 
 Here is how much of TeX's memory you used:
  7677 strings out of 478927
- 113838 string characters out of 2864781
+ 113829 string characters out of 2864781
  456726 words of memory out of 3000000
  25391 multiletter control sequences out of 15000+600000
  442723 words of font info for 53 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  72i,7n,80p,914b,263s stack positions out of 5000i,500n,10000p,200000b,80000s
-{F:/PROGRAMS/MikTeX/fonts/enc/dvips/lm/lm-ec.enc}<F:/PROGRAMS/MikTeX/fonts/ty
-pe1/public/lm/lmbx10.pfb><F:/PROGRAMS/MikTeX/fonts/type1/public/lm/lmbx12.pfb><
-F:/PROGRAMS/MikTeX/fonts/type1/public/lm/lmr10.pfb><F:/PROGRAMS/MikTeX/fonts/ty
-pe1/public/lm/lmr12.pfb><F:/PROGRAMS/MikTeX/fonts/type1/public/lm/lmr17.pfb>
-Output written on weiiszablon.pdf (20 pages, 1444634 bytes).
+{F:/PROGRAMS/MikTeX/fonts/enc/dvips/lm/lm-ec.enc}<F:/PROGR
+AMS/MikTeX/fonts/type1/public/lm/lmbx10.pfb><F:/PROGRAMS/MikTeX/fonts/type1/pub
+lic/lm/lmbx12.pfb><F:/PROGRAMS/MikTeX/fonts/type1/public/lm/lmr10.pfb><F:/PROGR
+AMS/MikTeX/fonts/type1/public/lm/lmr12.pfb><F:/PROGRAMS/MikTeX/fonts/type1/publ
+ic/lm/lmr17.pfb>
+Output written on weiiszablon.pdf (20 pages, 1446357 bytes).
 PDF statistics:
  110 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
