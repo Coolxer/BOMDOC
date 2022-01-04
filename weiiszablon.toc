@@ -2,6 +2,5 @@
 \contentsline {section}{\numberline {1}Wstęp}{\footnotesize 5}{}%
 \contentsline {section}{\numberline {2}Opis problemu}{\footnotesize 6}{}%
 \contentsline {section}{\numberline {3}Rozwiązanie}{\footnotesize 10}{}%
-\contentsline {section}{\numberline {4}Przykłady użycia}{\footnotesize 11}{}%
-\contentsline {section}{\numberline {5}Podsumowanie}{\footnotesize 12}{}%
-\contentsline {section}{Literatura}{\footnotesize 13}{}%
+\contentsline {section}{\numberline {4}Podsumowanie}{\footnotesize 19}{}%
+\contentsline {section}{Literatura}{\footnotesize 20}{}%
