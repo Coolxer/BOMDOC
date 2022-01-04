@@ -62,7 +62,7 @@ W ramach projektu utworzono system zarządzania bazą BOM (Bill of Materials). Z
 
 BOM (Bill Of Materials) jest strukturalnym (hierarchicznym) zestawieniem materiałowym produktu końcowego zawierającym listę części składowych niezbędnych do jego wytworzenia wraz z podaniem cech określających dany zasób m.in. ceny i ilości. Takie zestawienia są wykorzystywane na różnych etapach produkcji, zarówno podczas projektowania, a także podczas wytwarzania czy nawet montażu.
 
-Niekiedy BOM jest wzbogacany o opis kolejnych czynności, w których używane są poszczególne elementy składowe (przykładem jest dowolna instrukcja szafy przeznaczonej do samodzielnego montażu, która często zawiera elementy składowe wraz z wyszczególnieniem kolejnych czynności montażowych).
+Niekiedy BOM jest wzbogacany o opis kolejnych czynności, w których używane są poszczególne elementy składowe (przykładem jest dowolna instrukcja szafy przeznaczonej do samodzielnego montażu, która często zawiera elementy składowe wraz z~wyszczególnieniem kolejnych czynności montażowych).
 
 Poszczególne elementy posiadają kilka cech (atrybutów). W zależności od implementacji systemu parametry są różne. Oto kilka najpopularniejszych z nich:
 
@@ -119,21 +119,21 @@ Na załączonym zdjęciu (\ref{fig:example:hierarchy}) pokazano przykład docelo
 
 Temat organizacji zasobów produkcyjnych jest bardzo istotny, ponieważ umożliwia zachowanie ciągłości produkcji, a także pozwala na utrzymanie płynności finansowej przedsiębiorstwa.
 
-Dzięki posiadaniu precyzyjnych zestawień można planować zakup surowców (ustrzeżenie się braku, ale także nadmiaru zapasów), a także określać niezbędne do poniesienia koszty (planowanie budżetu). Nie można również zapomnieć o tym, że mając wiedzę na temat niezbędnych materiałów i ich ilości można zarządzać zapasami na przyszłość i nie dopuścić do braku materiałów w magazynie, co jest bardzo niebezpieczne. Istotny jest także atut minimalizacji błędów, zyskany dzięki korzystaniu z utworzonego zestawienia.
+Dzięki posiadaniu precyzyjnych zestawień można planować zakup surowców (ustrzeżenie się braku, ale także nadmiaru zapasów), a także określać niezbędne do poniesienia koszty (planowanie budżetu). Nie można również zapomnieć o tym, że mając wiedzę na temat niezbędnych materiałów i ich ilości można zarządzać zapasami na przyszłość i nie dopuścić do braku materiałów w magazynie, co jest bardzo niebezpieczne. Istotny jest także atut minimalizacji błędów, zyskany dzięki korzystaniu z~utworzonego zestawienia.
 
 Projekt jest zatem próbą znalezienia rozwiązania poprzez utworzenie własnego systemu do zarządzania hierarchiczną bazą BOM. Naturalnie takie systemy istnieją na rynku, ale są one zazwyczaj częścią zintegrowanych systemów zarządzania przedsiębiorstwem i nie stanowią oddzielnych bytów.
 
 \clearpage
 \section{Rozwiązanie}
 
-Sekcję rozwiązania podzielono na 3 części: zalecenia, założenia i opis. Pierwsza z nich ogólnie przedstawia wyobrażenie idealnego systemu. Założenia są efektem podjęcia decyzji odnośnie wyboru technologii, która umożliwi realizację celu. Ostatnia z części stanowi opis systemu.
+Sekcję rozwiązania podzielono na 3 części: zalecenia, założenia i opis. Pierwsza z~nich ogólnie przedstawia wyobrażenie idealnego systemu. Założenia są efektem podjęcia decyzji odnośnie wyboru technologii, która umożliwi realizację celu. Ostatnia z~części stanowi opis systemu.
 
 \subsection*{Zalecenia}
 Analiza problemu doprowadziła do powstania pewnych zaleceń implementowanego systemu. Celem jest wykorzystanie zalet innych systemów, a także eliminacja ich wad. Najważniejsze zalecenia spisano poniżej:
 
 \begin{itemize}[label=-,labelsep=0.4cm,leftmargin=0.6cm]
 \item system ma być prosty i niezależny od innego oprogramowania (samodzielny)
-\item bardzo istotna jest prezentacja zestawienia materiałowego w postaci hierarchii, a także pokazanie szczegółów poszczególnych wyrobów. 
+\item bardzo istotna jest prezentacja zestawienia materiałowego w postaci hierarchii, a~także pokazanie szczegółów poszczególnych wyrobów. 
 \item program powinien posiadać wygodny i intuicyjny interfejs użytkownika
 \item możliwość dodawania, usuwania i edycji poszczególnych pozycji zestawienia
 \end{itemize}
@@ -141,7 +141,7 @@ Analiza problemu doprowadziła do powstania pewnych zaleceń implementowanego sy
 \subsection*{Założenia}
 Na podstawie założeń zdecydowano się na implementację systemu przy użyciu języka programowania Python i wbudowanej biblioteki do obsługi interfejsu graficznego o nazwie tkinter. Python został wybrany jako  przyszłościowy język wysokiego poziomu o wielorakich zastosowaniach. Biblioteka graficzna ułatwia proces tworzenia interfejsu graficznego i pozwala się skupić na faktycznej realizacji. Przy pomocy tych dwóch narzędzi można zorganizować niemal cały wymagany system.
 
-Istotnym zagadnieniem jest jednak przechowywanie danych, ponieważ bez tego zestawienie istniałoby tylko podczas działania programu (przechowywane w pamięci). W celu uzyskania pełnej niezależności postawiono na przechowywanie zestawień w lokalnych plikach komputera w formacie JSON. Jest to tekstowy format zapisu danych, który już sam w sobie jest hierarchiczny.
+Istotnym zagadnieniem jest jednak przechowywanie danych, ponieważ bez tego zestawienie istniałoby tylko podczas działania programu (przechowywane w pamięci). W celu uzyskania pełnej niezależności postawiono na przechowywanie zestawień w~lokalnych plikach komputera w formacie JSON. Jest to tekstowy format zapisu danych, który już sam w sobie jest hierarchiczny.
 
 Ważna jest także walidacja danych wejściowych (plików i interaktywnych pól tekstowych), a także obsługa błędów.
 
@@ -150,7 +150,7 @@ Zgodnie z założeniami zrealizowano system przy użyciu wybranych technologii. 
 
 W aplikacji zadbano o minimalistyczny, modernistyczny, responsywny interfejs użytkownika, a także obsługę wszelkich błędów.
 
-Aplikacja składa się z kilku stron i wielu okien modalnych, wyświetlanych w zależności od kontekstu, co czyni ją bardzo przejrzystą.
+Aplikacja składa się z kilku stron i wielu okien modalnych, wyświetlanych w~zależności od kontekstu, co czyni ją bardzo przejrzystą.
 
 \subsubsection*{Menu główne}
 Na zdjęciu (\ref{fig:app:menu}) widoczne jest menu główne aplikacji. Z poziomu menu głównego możliwe jest zamknięcie aplikacji, wyświetlenie strony informacyjnej, wczytanie zestawienia BOM z pliku lub utworzenie nowego zestawienia BOM.
@@ -240,18 +240,20 @@ Po pomyślnym wczytaniu zestawienia lub utworzeniu nowego zestawienia użytkowni
 \label{fig:app:bom_presentation}
 \end{figure}
 
-Na samej górze prezentowana jest nazwa zestawienia (produktu końcowego).
+Zestawienie prezentowane jest w specjalnie przygotowanym widoku, umożliwiającym również jego modyfikację.
 
-Prezentowany widok drzewa składa się z 6 kolumn. Pierwsza kolumna stanowi identyfikator półproduktu, a następne oznaczają kolejno nazwę, ilość, jednostkę (kg., szt., m), cenę jednostkową i sumę (ilość * cena jednostkowa).
+Na samej górze prezentowana jest nazwa zestawienia, zazwyczaj oznaczającą nazwę produktu końcowego.
 
-Widok drzewa jest strukturą hierarchiczną (możliwość zwijania i rozwijania poszczególnych wierszy). Na samej górze jest wiersz pusty, służący do dodawania komponentów składowych dla najwyższego poziomu hierarchii. Po prawej stronie widoczny jest pasek przewijania listy.
+Prezentowany widok drzewa składa się z 6 kolumn. Pierwsza kolumna stanowi identyfikator półproduktu, a następne oznaczają kolejno nazwę, ilość, jednostkę (kg., szt., m), cenę jednostkową i sumę (ilość * cena jednostkowa). Użytkownik nie wpisuje bezpośrednio sumy, ponieważ jest ona obliczana automatycznie na podstawie ilości i~ceny jednostkowej.
 
-Na dole znajduje się panel sterowania, przy pomocy którego można dodać nowy komponent, edytować istniejący lub usunąć, a także powrócić do menu głównego.
+Widok drzewa jest strukturą hierarchiczną i posiada możliwość zwijania i rozwijania poszczególnych wierszy, co sprawia, że przeglądanie zestawienia jest bardzo wygodne i praktyczne. Na samej górze listy znajduje się pusty wiersz, służący do dodawania komponentów składowych dla najwyższego poziomu hierarchii. 
 
-Poszczególne przyciski są aktywne tylko wtedy, gdy wybrany został dowolny wiersz. Zaznaczony wiersz jest wyróżniony kolorem i powiększoną czcionką. Zaznaczenie wiersza jest konieczne nie tylko w przypadku chęci usunięcia czy edycji, ale także do dodawania nowego komponentu, ponieważ zaznaczony wiersz determinuje miejsce wstawienia nowego elementu.
+Po prawej stronie widoczny jest natomiast pasek przewijania listy. Użytkownik może także przewijać listę przy pomocy scroll'a myszki komputerowej.
+
+Na dole znajduje się panel sterowania, przy pomocy którego można dodać, edytować lub usunąć komponent, a także powrócić do menu głównego. Poszczególne przyciski modfyfikacji są aktywne tylko wtedy, gdy wybrany został dowolny wiersz. Zaznaczony wiersz jest wyróżniony kolorem i powiększoną czcionką. Zaznaczenie wiersza jest konieczne nie tylko w przypadku chęci usunięcia czy edycji, ale także do dodawania nowego komponentu, ponieważ zaznaczony wiersz determinuje miejsce wstawienia nowego elementu.
 
 \paragraph*{Dodawanie obiektu}\mbox{}\\
-Na zdjęciu (\ref{fig:app:bom_add_item}) przedstawiono przykład dodawania obiektu przy użyciu specjalnie zaprojektowanego formularza. Użytkownik wypełnia poszczególne pola edycyjne. W przypadku wyboru jednostki komponentu zastosowano listę wyboru. Dla każdego interaktywnego pola tekstowego prowadzona jest walidacja poprawności (minimalna/maksymalna długość, typ tekstowy/numeryczny), a dla identyfikatora także unikatowość. W przypadku niespełnienia wymogów na ekranie wyświetlany jest stosowny komunikat modalny.
+Na zdjęciu (\ref{fig:app:bom_add_item}) przedstawiono przykład dodawania obiektu przy użyciu specjalnie zaprojektowanego formularza. Użytkownik wypełnia poszczególne pola edycyjne. W~przypadku wyboru jednostki komponentu zastosowano listę wyboru. Dla każdego interaktywnego pola tekstowego prowadzona jest walidacja poprawności (minimalna/maksymalna długość, typ tekstowy/numeryczny), a dla identyfikatora także unikatowość. W przypadku niespełnienia wymogów wyświetlany jest stosowny komunikat.
 
 \begin{figure}[H]
 	\centering
@@ -261,7 +263,7 @@ Na zdjęciu (\ref{fig:app:bom_add_item}) przedstawiono przykład dodawania obiek
 \end{figure}
 
 \paragraph*{Edytowanie obiektu}\mbox{}\\
-Na zdjęciu (\ref{fig:app:bom_add_item}) pokazano edytowanie obiektu za pomocą formularza. Wszelkie parametry są ładowane według bieżących danych, a użytkownik może modyfikować wybrane pola. Tutaj oczywiście również jest walidacja poprawności wpisywanych danych, a także sprawdzenie integralności identyfikatora, przy czym identyfikator może pozostać niezmieniony. 
+Na zdjęciu (\ref{fig:app:bom_add_item}) pokazano edytowanie obiektu za pomocą formularza. Wszelkie parametry są ładowane według bieżących danych, a użytkownik może modyfikować wybrane pola. Tutaj oczywiście również jest walidacja poprawności wpisywanych danych, a~także sprawdzenie integralności identyfikatora, przy czym identyfikator może pozostać niezmieniony. 
 
 \begin{figure}[H]
 	\centering
